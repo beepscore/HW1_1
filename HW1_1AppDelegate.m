@@ -83,6 +83,8 @@
             
             [textFieldContent appendFormat:@"Reversed a string:%@\n", reversedString];
             [reversedString release];
+            // Chris suggests set to nil
+            reversedString = nil;
 		}
 
 		// SB changed - move these into if block above

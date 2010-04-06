@@ -11,9 +11,8 @@
 @interface HW1_1AppDelegate : NSObject <NSApplicationDelegate>
 {
 #pragma mark Instance variables
-    NSWindow *window;
-
-	NSTextField*		textField_;
+    NSWindow*      window;
+	NSTextField*   textField_;
 }
 
 #pragma mark Properties
